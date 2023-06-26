@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+#root {
+  width: 300px;
+  border: 1px solid black;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: black;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: black;
+  color: aqua;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aqua;
+  color: black;
+}
+
+button:hover {
+  background-color: black;
+  color: aqua;
+  transition-duration: 0.8s;
+}
+
+.button button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: aqua;
+  color: black;
+}
+
+h3 {
+  color: aqua;
+  font-size: 10px;
+  margin-left: 33%;
+  margin-top: 10px;
+}
+
+h1 {
+  color: aqua;
+  width: 100%;
+  margin-left: 38%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
